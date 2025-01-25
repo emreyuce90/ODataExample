@@ -1,0 +1,19 @@
+﻿@ODataExample_HostAddress = https://localhost:7117
+
+POST {{ODataExample_HostAddress}}/api/Products/
+Accept: application/json
+Content-Type:application/json
+{
+ "name":"Product1",
+ "price":23.56,
+ "description":"Lorem İpsum",
+ "priceTotal":500
+}
+
+###
+GET {{ODataExample_HostAddress}}/api/Products/
+Accept: application/json
+
+###
+
+ 
